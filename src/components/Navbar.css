@@ -5,6 +5,8 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    width: 100%;
+    margin: 0%;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -15,7 +17,7 @@
     justify-content: center;
     align-items: center;
     height: 80px;
-    max-width: 1500px;
+    width: 100%;
   }
   
   .navbar-logo {
@@ -40,7 +42,7 @@
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 60vw;
+    width: 80vw;
     justify-content: end;
     margin-right: 2rem;
   }
@@ -104,6 +106,7 @@
       text-align: center;
       padding: 2rem;
       width: 100%;
+      height: 30%;
       display: table;
     }
   
